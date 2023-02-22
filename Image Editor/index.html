@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Editor</title>
+</head>
+<body>
+    <div class="container-xxl container">
+        <header>
+            <div class="row ps-4 ps-md-5">
+                <div class="col">
+                    <nav class="navbar ps-4 ps-md-5 navbar-dark bg-#202020 navbar-expand-lg fixed-top">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                            <ul class="navbar-nav ml-auto ps-3">
+                                <li class="navbar-item">
+                                    <a href="#" class="nav-link">Home</a>
+                                </li>
+                                <li class="navbar-item">
+                                    <a href="#display" class="nav-link">Display</a>
+                                </li>
+                                <li class="navbar-item">
+                                    <a href="#overview" class="nav-link">Project Overview</a>
+                                </li>
+                                <li class="navbar-item">
+                                    <a href="#" class="nav-link">Other Projects</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <h1>IMAGE <br> EDITOR</h1>
+                    <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                        <a target="_blank" href="https://sunay-d.github.io/image_editor/imageEditor" type="button" class="btn btn-dark btn-primary">LIVE</a>
+                        <a target="_blank" href="https://github.com/sunay-d/sunay-d.github.io/tree/main/image_editor" type="button" class="btn btn-dark btn-secondary">SOURCE CODE</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="container-xxl">
+            <div class="col" id="display">
+                <div class="row m-auto text-center reveal">
+                    <img id="project-gif" src="./img/video.gif" alt="project gif"> 
+                </div>
+                <div id="overview" class="row m-auto reveal">
+                    <div class="row text-center">
+                        <h2>Project Overview</h2>
+                        <article>
+                            <p>
+                                This image editor app is a web-based tool that allows users to easily upload an image and apply a range of editing settings to transform it in just a few clicks. With options to adjust brightness, saturation, grayscale, and inversion, as well as flip and rotate functions, this app is a versatile solution for anyone looking to enhance their images.
+                            </p>
+                            <h3>Technical Details</h3>
+                            <p>
+                                The app is built using modern web development technologies such as HTML, CSS, and JavaScript, ensuring fast and reliable performance. The interface is intuitive and user-friendly, making it easy for even those with little technical experience to use. The design is responsive making the website accesible in all screen sizes.
+                            </p>
+                            <h3>Features</h3>
+                        </article>
+                        <div class="row">
+                            <div class="col-md-9">
+                                <article>
+                                    <ul>
+                                        <li><p>Upload an image from your computer</p></li>
+                                        <li><p>Adjust brightness, saturation, grayscale, and inversion settings</p></li>
+                                        <li><p>Flip and rotate images in multiple directions</p></li>
+                                        <li><p>Download the edited image to your computer</p></li>
+                                        <li><p>Reset to the original settings</p></li>
+                                    </ul>
+                                    <h3>Potential Uses</h3>
+                                    <p>
+                                        This image editor is an ideal solution for anyone looking to enhance their photographs, whether it's for personal or professional use. The app can be used by photographers, designers, bloggers, or anyone who wants to make their images stand out from the crowd.
+                                    </p>
+                                </article>
+                            </div>
+                            <div class="col text-center m-auto">
+                                <img class="img-fluid" src="./img/mobile.png" alt="mobile screenshot">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <article>
+
+                            <h3>Future Development</h3>
+                            <p>
+                                Future iterations of the app could include additional features such as the ability to add filters or text to images, as well as options for cropping and resizing.
+                            </p>
+                            <h3>Conclusion</h3>
+                            <p>
+                                In summary, this web-based image editor app is an easy-to-use tool for enhancing your photographs. With its range of editing settings, intuitive interface, and fast performance, it's a versatile solution that can be used by anyone looking to create stunning images.
+                            </p>
+                        </article>
+                    </div>
+
+                    <div class="row flex flex-wrap">
+                        <div class="col-md-3">
+                            <a target="_blank" href="https://sunay-d.github.io/image_editor/imageEditor" type="button" class="btn btn-dark btn-primary w-100">LIVE</a>
+                        </div>
+                        <div class="col-md-3">
+                            <a target="_blank" href="https://github.com/sunay-d/sunay-d.github.io/tree/main/image_editor" type="button" class="btn btn-dark btn-primary w-100 bg-dark text-light">SOURCE CODE</a>                        
+                        </div>
+                    </div>  
+                </div>
+            </div>
+           
+        </main>
+    </div>
+    <script src=”https://code.jquery.com/jquery-3.2.1.slim.min.js” integrity=”sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN” crossorigin=”anonymous”></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js integrity=”sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q” crossorigin=”anonymous”></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" rel="script" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="animate.js"></script>
+</body>
+</html>
